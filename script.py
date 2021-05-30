@@ -17,7 +17,7 @@ d = webdriver.Chrome(chromedriver,options=chrome_options)
 #just enter relavant username and password. also enter url for folder you wish to download
 username = "user"
 password = "pass"
-url = "https://www.bphc4.ml/0:/Ultimate%20Server/TV%20Shows/TV%20Shows%20English/S/Silicon%20Valley%20(2014)/S06/Silicon.Valley.S06E07.iNTERNAL.1080p.WEB.H264-AMRAP/"
+url = "https://www.bphc4.ml/0:/Ultimate%20Server/TV%20Shows/TV%20Shows%20English/S/"
 
 if(url.startswith("https://www.")):
 	urlWithAuth = "https://" + username + ":"+ password+ "@" + url[8:]
